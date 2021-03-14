@@ -34,3 +34,10 @@ python -m unittest
 The main goal of this program is to generate two matrices, dump them to a file and summarize these matrices with the p1 program using the adapter object.
 ## Adapter
 Adapter object is stored in ```matrix_gen.operations.summarize```. It calls the p1 program, which is installed in current python environment as a dependency of the p2 program, as a subprocess.
+
+# Quick start guide
+## Command line interface
+To generate a matrix pair and get sum of these matrix run the following command
+```
+python -m matrix_gen -o /path/to/output/file
+```
