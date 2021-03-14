@@ -31,6 +31,6 @@ python -m unittest
 
 # Project description
 ## Goal
-The main goal of this program is to generate two matrices, dump them to a file and summarize these matrices with p1 using the adapter object.
+The main goal of this program is to generate two matrices, dump them to a file and summarize these matrices with the p1 program using the adapter object.
 ## Adapter
-Adapter object is stored in ```matrix_gen.operations.summarize```. It calls p1 program, which is installed in current python environment as a dependency of p2 program, as a subprocess.
+Adapter object is stored in ```matrix_gen.operations.summarize```. It calls the p1 program, which is installed in current python environment as a dependency of the p2 program, as a subprocess.
